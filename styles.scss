@@ -1,0 +1,355 @@
+$colorGray: #777E90;
+$colorLightGray: #E6E8EC;
+$colorBlue: #3772FF;
+.circleBlock {
+  border-top-left-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+}
+body {
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+  h1 {
+    font-size: 44px;
+    margin-block-start: 0.1%;
+    margin-block-end: 0.1%;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  h2 {
+    font-size: 70px;
+    margin-block-start: 40px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  h3 {
+    font-size: 45px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  h4 {
+    font-size: 32px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 15px;
+  }
+  .clear {
+    border: 2px solid $colorLightGray;
+  }
+  .full {
+    background: $colorBlue;
+    color: white;
+  }
+  .navigator {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1%;
+    margin-left: 8%;
+    align-items: center;
+  }
+  .label {
+  }
+  .separator {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .navigator {
+    font-size: 18px;
+  }
+  .navigator-discover {
+    margin-bottom: 0.5%;
+  }
+  .navigator-how-it-work {
+    margin-bottom: 0.5%;
+    margin-left: 2%;
+  }
+  .activities {
+    display: flex;
+    margin-left: 25%;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 270px;
+    order: 999;
+    border: 2px solid $colorLightGray;
+    border-top-left-radius: 4% 23%;
+    border-bottom-left-radius: 4% 23%;
+    border-top-right-radius: 4% 23%;
+    border-bottom-right-radius: 4% 23%;
+  }
+  .search-input {
+    position: relative;
+    left: 4%;
+    bottom: 2px;
+    height: 15px;
+    width: 110px;
+    font-size: 15px;
+    color: $colorGray;
+    font-family: "Poppins";
+    outline: none;
+    border-width: 0;
+  }
+  .shape {
+    position: relative;
+    right: 4%;
+  }
+  .notifications {
+    height: 25px;
+    width: 25px;
+    order: 999;
+    margin-left: 3%;
+  }
+  .bell {
+    position: relative;
+    top: 12px;
+  }
+  .marker {
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+  }
+  .upload {
+    width: 95px;
+    order: 999;
+    margin-left: 3%;
+    border-top-left-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-right-radius: 20% 50%;
+  }
+  .connect {
+    width: 170px;
+    order: 999;
+    margin-left: 3%;
+    border-top-left-radius: 15% 50%;
+    border-bottom-left-radius: 15% 50%;
+    border-top-right-radius: 15% 50%;
+    border-bottom-right-radius: 15% 50%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 2px $colorLightGray;
+  }
+  .slogan {
+    font-size: 17px;
+    margin-top: 5%;
+    font-family: "Poppins";
+    color: $colorGray;
+  }
+  .tеaser {
+    position: relative;
+    bottom: 10px;
+
+  }
+  .start-search {
+    position: relative;
+    top: 30px;
+    width: 170px;
+    border-top-left-radius: 15% 50%;
+    border-bottom-left-radius: 15% 50%;
+    border-top-right-radius: 15% 50%;
+    border-bottom-right-radius: 15% 50%;
+  }
+  .chosen {
+    display: flex;
+    position: relative;
+    top: 50px;
+  }
+  .chosen-object {
+    position: relative;
+    top: 50px;
+    left: 17%;
+    height: 800px;
+    width: 640px;
+    background-image: url("images/fuu-j-Lo7venJ_ywM-unsplash 1.jpg");
+    background-size: cover;
+    border-top-left-radius: 5% 4%;
+    border-bottom-left-radius: 5% 4%;
+    border-top-right-radius: 5% 4%;
+    border-bottom-right-radius: 5% 4%;
+  }
+  .recorder {
+    position: relative;
+    top: 95.5%;
+    left: 1.7%;
+    height: 30px;
+    width: 620px;
+    background-color: white;
+    border-top-left-radius: 3% 50%;
+    border-bottom-left-radius: 3% 50%;
+    border-top-right-radius: 3% 50%;
+    border-bottom-right-radius: 3% 50%;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.18);
+  }
+  .chosen-info {
+    order: 999;
+    margin-left: 20%;
+  }
+  .info-name {
+    width: 400px;
+  }
+  .creator-info {
+    display: flex;
+  }
+  .creator-photo {
+    position: relative;
+  }
+  .creator-p {
+    position: relative;
+    left: 5%;
+    top: 1%;
+    bottom: 30%;
+    font-weight: 100;
+    color: $colorGray;
+  }
+  .creator-name {
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+  }
+  .instant-price-p {
+    position: relative;
+    left: 100%;
+    top: 1%;
+    bottom: 30%;
+    font-weight: 100;
+    color: $colorGray;
+  }
+  .object-price {
+    position: relative;
+    left: 100%;
+    bottom: 10%;
+  }
+  .creator-name-box {
+
+  }
+  .creator-mark {
+    position: relative;
+    left: 20%;
+  }
+  .creator-price-box {
+
+  }
+  .info-object {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    top: 2%;
+    height: 300px;
+    border: 2px solid $colorLightGray;
+    border-top-left-radius: 7% 10%;
+    border-bottom-left-radius: 7% 10%;
+    border-top-right-radius: 7% 10%;
+    border-bottom-right-radius: 7% 10%;
+
+  }
+  .control-buttons {
+
+  }
+  .place-a-bid {
+    margin-top: 12%;
+    border-top-left-radius: 4% 50%;
+    border-bottom-left-radius: 4% 50%;
+    border-top-right-radius: 4% 50%;
+    border-bottom-right-radius: 4% 50%;
+  }
+  .view-item {
+    margin-top: 3%;
+    border-top-left-radius: 4% 50%;
+    border-bottom-left-radius: 4% 50%;
+    border-top-right-radius: 4% 50%;
+    border-bottom-right-radius: 4% 50%;
+  }
+  .next-previous {
+    display: flex;
+    margin-top: 10%;
+  }
+  .previous {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+  .next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+  .offer {
+
+  }
+  .sellers {
+
+  }
+  .actual-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+  }
+  .price-ETH {
+    position: relative;
+  }
+  .price-USD {
+    font-size: 22px;
+    color: $colorGray;
+  }
+  .time-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .auction-ending-in-p {
+    position: relative;
+    top: 75%;
+    left: 32%;
+  }
+  .time-last {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 85%;
+    left: 17%;
+    width: 250px;
+  }
+.hours-p {
+  color: $colorGray;
+}
+.minutes-p {
+  color: $colorGray;
+}
+.seconds-p {
+  color: $colorGray;
+}
+
