@@ -327,8 +327,11 @@ h4 {
 .popular {
   margin-left: 0px;
   margin-right: 0px;
-  height: 663px;
+  height: 700px;
   background-color: $greyBack;
+  }
+.hot-bid {
+     height: 730px;
   }
 .actual-price {
     display: flex;
@@ -1157,4 +1160,278 @@ h4 {
   font-weight: 100;
   color: $colorGray;
   font-size: 14px;
+}
+
+.hot-bid-control {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin-top: 10%;
+  margin-left: 17%;
+
+}
+.hot-bid-p {
+  font-size: 44px;
+}
+.hot-bid-previous-next {
+  display: flex;
+  align-items: center;
+}
+.hot-bid-next {
+  margin-left: 160%;
+}
+.hot-bid-list {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 17%;
+  justify-content: space-between;
+  width: 1095px;
+}
+
+.hot-bid-first-img {
+  border-top-left-radius: 5% 4%;
+  border-bottom-left-radius: 5% 4%;
+  border-top-right-radius: 5% 4%;
+  border-bottom-right-radius: 5% 4%;
+}
+.hot-bid-second-img {
+  border-top-left-radius: 5% 4%;
+  border-bottom-left-radius: 5% 4%;
+  border-top-right-radius: 5% 4%;
+  border-bottom-right-radius: 5% 4%;
+}
+.hot-bid-third-img {
+  border-top-left-radius: 5% 4%;
+  border-bottom-left-radius: 5% 4%;
+  border-top-right-radius: 5% 4%;
+  border-bottom-right-radius: 5% 4%;
+}
+.hot-bid-forth-img {
+  border-top-left-radius: 5% 4%;
+  border-bottom-left-radius: 5% 4%;
+  border-top-right-radius: 5% 4%;
+  border-bottom-right-radius: 5% 4%;
+}
+
+.hot-bid-first-main-info {
+  margin-top: 5%;
+  border-bottom: 2px solid $colorLightGray;
+  width: 232px;
+}
+.hot-bid-second-main-info {
+  margin-top: 5%;
+  border-bottom: 2px solid $colorLightGray;
+  width: 232px;
+}
+.hot-bid-third-main-info {
+  margin-top: 5%;
+  border-bottom: 2px solid $colorLightGray;
+  width: 232px;
+}
+.hot-bid-forth-main-info {
+  margin-top: 5%;
+  border-bottom: 2px solid $colorLightGray;
+  width: 232px;
+}
+
+.hot-bid-first-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+.hot-bid-second-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+.hot-bid-third-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+.hot-bid-forth-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-bid-first-follovers {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.hot-bid-second-follovers {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.hot-bid-third-follovers {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.hot-bid-forth-follovers {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-bid-first-follovers-one {
+  border: 2px solid white;
+}
+.hot-bid-second-follovers-one {
+  border: 2px solid white;
+}
+.hot-bid-third-follovers-one {
+  border: 2px solid white;
+}
+.hot-bid-forth-follovers-one {
+  border: 2px solid white;
+}
+
+.hot-bid-first-follovers-two {
+  position: absolute;
+  border: 2px solid white;
+  left: 18.2%;
+}
+.hot-bid-second-follovers-two {
+  position: absolute;
+  border: 2px solid white;
+  left: 33.4%;
+}
+.hot-bid-third-follovers-two {
+  position: absolute;
+  border: 2px solid white;
+  left: 48.5%;
+}
+.hot-bid-forth-follovers-two {
+  position: absolute;
+  border: 2px solid white;
+  left: 63.6%;
+}
+
+.hot-bid-first-follovers-three {
+  position: absolute;
+  border: 2px solid white;
+  left: 19%;
+}
+.hot-bid-second-follovers-three {
+  position: absolute;
+  border: 2px solid white;
+  left: 34.5%;
+}
+.hot-bid-third-follovers-three {
+  position: absolute;
+  border: 2px solid white;
+  left: 49.5%;
+}
+.hot-bid-forth-follovers-three {
+  position: absolute;
+  border: 2px solid white;
+  left: 64.6%;
+}
+
+.hot-bid-first-sub-info {
+  display: flex;
+  width: 232px;
+  margin-top: 4%;
+}
+.hot-bid-second-sub-info {
+  display: flex;
+
+  margin-top: 4%;
+}
+.hot-bid-third-sub-info {
+  display: flex;
+
+  margin-top: 4%;
+}
+.hot-bid-forth-sub-info {
+  display: flex;
+
+  margin-top: 4%;
+}
+
+.hot-bid-first-bid {
+  display: flex;
+}
+.hot-bid-second-bid {
+  display: flex;
+}
+.hot-bid-third-bid {
+  display: flex;
+}
+.hot-bid-forth-bid {
+  display: flex;
+}
+
+.hot-bid-first-highest-bid {
+  font-weight: 100;
+  color: $colorGray;
+  width: 70px;
+  margin-left: 2%;
+  font-size: 12px;
+}
+.hot-bid-second-highest-bid {
+  font-weight: 100;
+  color: $colorGray;
+  width: 70px;
+  margin-left: 2%;
+  font-size: 12px;
+}
+.hot-bid-third-highest-bid {
+  font-weight: 100;
+  color: $colorGray;
+  width: 70px;
+  margin-left: 2%;
+  font-size: 12px;
+}
+.hot-bid-forth-highest-bid {
+  font-weight: 100;
+  color: $colorGray;
+  width: 70px;
+  margin-left: 2%;
+  font-size: 12px;
+}
+
+.hot-bid-first-bid-ETH {
+  width: 70px;
+  font-size: 12px;
+}
+.hot-bid-second-bid-ETH {
+  width: 70px;
+  font-size: 12px;
+}
+.hot-bid-third-bid-ETH {
+  width: 70px;
+  font-size: 12px;
+}
+.hot-bid-forth-bid-ETH {
+  width: 70px;
+  font-size: 12px;
+}
+
+.hot-bid-first-status {
+  font-weight: 100;
+  margin-left: 3%;
+  color: $colorGray;
+  font-size: 12px;
+}
+.hot-bid-second-status {
+  font-weight: 100;
+  margin-left: 3%;
+  color: $colorGray;
+  font-size: 12px;
+}
+.hot-bid-third-status {
+  font-weight: 100;
+  margin-left: 3%;
+  color: $colorGray;
+  font-size: 12px;
+}
+.hot-bid-forth-status {
+  font-weight: 100;
+  margin-left: 3%;
+  color: $colorGray;
+  font-size: 12px;
 }

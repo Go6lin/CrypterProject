@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstLanding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -70,6 +70,7 @@
       <workItem from="1673983228446" duration="3492000" />
       <workItem from="1674232606205" duration="2496000" />
       <workItem from="1674393362752" duration="57000" />
+      <workItem from="1674393586030" duration="7455000" />
     </task>
     <servers />
   </component>
