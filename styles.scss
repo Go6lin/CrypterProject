@@ -321,9 +321,6 @@ h4 {
     height: 40px;
     width: 40px;
   }
-.offer {
-
-  }
 .popular {
   margin-left: 0px;
   margin-right: 0px;
@@ -374,7 +371,7 @@ h4 {
 .seconds-p {
   color: $colorGray;
 }
-.offer {
+.interesting {
   display: flex;
   margin-top: 50px;
   padding-bottom: 150px;
@@ -1161,7 +1158,6 @@ h4 {
   color: $colorGray;
   font-size: 14px;
 }
-
 .hot-bid-control {
   display: flex;
   justify-content: space-between;
@@ -1187,7 +1183,6 @@ h4 {
   justify-content: space-between;
   width: 1095px;
 }
-
 .hot-bid-first-img {
   border-top-left-radius: 5% 4%;
   border-bottom-left-radius: 5% 4%;
@@ -1212,7 +1207,6 @@ h4 {
   border-top-right-radius: 5% 4%;
   border-bottom-right-radius: 5% 4%;
 }
-
 .hot-bid-first-main-info {
   margin-top: 5%;
   border-bottom: 2px solid $colorLightGray;
@@ -1233,7 +1227,6 @@ h4 {
   border-bottom: 2px solid $colorLightGray;
   width: 232px;
 }
-
 .hot-bid-first-name-price {
   display: flex;
   justify-content: space-between;
@@ -1250,7 +1243,6 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-
 .hot-bid-first-follovers {
   margin-top: 5%;
   margin-bottom: 1%;
@@ -1275,7 +1267,6 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-
 .hot-bid-first-follovers-one {
   border: 2px solid white;
 }
@@ -1288,7 +1279,6 @@ h4 {
 .hot-bid-forth-follovers-one {
   border: 2px solid white;
 }
-
 .hot-bid-first-follovers-two {
   position: absolute;
   border: 2px solid white;
@@ -1309,7 +1299,6 @@ h4 {
   border: 2px solid white;
   left: 63.6%;
 }
-
 .hot-bid-first-follovers-three {
   position: absolute;
   border: 2px solid white;
@@ -1330,7 +1319,6 @@ h4 {
   border: 2px solid white;
   left: 64.6%;
 }
-
 .hot-bid-first-sub-info {
   display: flex;
   width: 232px;
@@ -1338,20 +1326,16 @@ h4 {
 }
 .hot-bid-second-sub-info {
   display: flex;
-
   margin-top: 4%;
 }
 .hot-bid-third-sub-info {
   display: flex;
-
   margin-top: 4%;
 }
 .hot-bid-forth-sub-info {
   display: flex;
-
   margin-top: 4%;
 }
-
 .hot-bid-first-bid {
   display: flex;
 }
@@ -1364,7 +1348,6 @@ h4 {
 .hot-bid-forth-bid {
   display: flex;
 }
-
 .hot-bid-first-highest-bid {
   font-weight: 100;
   color: $colorGray;
@@ -1393,7 +1376,6 @@ h4 {
   margin-left: 2%;
   font-size: 12px;
 }
-
 .hot-bid-first-bid-ETH {
   width: 70px;
   font-size: 12px;
@@ -1410,7 +1392,6 @@ h4 {
   width: 70px;
   font-size: 12px;
 }
-
 .hot-bid-first-status {
   font-weight: 100;
   margin-left: 3%;
@@ -1434,4 +1415,170 @@ h4 {
   margin-left: 3%;
   color: $colorGray;
   font-size: 12px;
+}
+.hot-collections {
+  padding-top: 10%;
+  background-color: $greyBack;
+  height: 790px;
+}
+.hot-collections-p {
+  font-size: 44px;
+  margin-left: 17%;
+}
+.hot-collections-offer {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin-top: 5%;
+  margin-left: 17%;
+}
+.hot-collections-offer-first-pictures-big {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-second-pictures-big {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-third-pictures-big {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-first-pictures-small {
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+.hot-collections-offer-second-pictures-small {
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+.hot-collections-offer-third-pictures-small {
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+.hot-collections-offer-first-pictures-small-first {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-second-pictures-small-first {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-third-pictures-small-first {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-first-pictures-small-second {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-second-pictures-small-second {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-third-pictures-small-second {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-first-pictures-small-third {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-second-pictures-small-third {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-third-pictures-small-third {
+  border-top-left-radius: 5% 7%;
+  border-bottom-left-radius: 5% 7%;
+  border-top-right-radius: 5% 7%;
+  border-bottom-right-radius: 5% 7%;
+}
+.hot-collections-offer-first-name {
+  margin-top: 0.7%;
+  font-size: 26px;
+}
+.hot-collections-offer-second-name {
+  margin-top: 0.7%;
+  font-size: 26px;
+}
+.hot-collections-offer-third-name {
+  margin-top: 0.7%;
+  font-size: 26px;
+}
+.hot-collections-offer-first-author {
+  display: flex;
+  margin-top: 0.5%;
+}
+.hot-collections-offer-second-author {
+  display: flex;
+  margin-top: 0.5%;
+}
+.hot-collections-offer-third-author {
+  display: flex;
+  margin-top: 0.5%;
+}
+.hot-collections-offer-first-author-name {
+  margin-top: 0.1%;
+  margin-left: 0.7%;
+}
+.hot-collections-offer-second-author-name {
+  margin-top: 0.1%;
+  margin-left: 0.7%;
+}
+.hot-collections-offer-third-author-name {
+  margin-top: 0.1%;
+  margin-left: 0.7%;
+}
+.hot-collections-offer-first-author-items {
+  margin-left: 28%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top-left-radius: 10% 20%;
+  border-bottom-left-radius: 10% 20%;
+  border-top-right-radius: 10% 20%;
+  border-bottom-right-radius: 10% 20%;
+}
+.hot-collections-offer-second-author-items {
+  margin-left: 28%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top-left-radius: 10% 20%;
+  border-bottom-left-radius: 10% 20%;
+  border-top-right-radius: 10% 20%;
+  border-bottom-right-radius: 10% 20%;
+}
+.hot-collections-offer-third-author-items {
+  margin-left: 28%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top-left-radius: 10% 20%;
+  border-bottom-left-radius: 10% 20%;
+  border-top-right-radius: 10% 20%;
+  border-bottom-right-radius: 10% 20%;
 }
