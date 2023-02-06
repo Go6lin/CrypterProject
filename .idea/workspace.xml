@@ -32,6 +32,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="2JaxbLrdUK067Tf6IGCsklzbBmd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OPSERV/OpenServer/domains/TechartTestTask/news.php" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,7 +72,11 @@
       <workItem from="1674232606205" duration="2496000" />
       <workItem from="1674393362752" duration="57000" />
       <workItem from="1674393586030" duration="7455000" />
-      <workItem from="1674491312187" duration="5449000" />
+      <workItem from="1674491312187" duration="5583000" />
+      <workItem from="1674676095547" duration="61000" />
+      <workItem from="1674676243564" duration="429000" />
+      <workItem from="1674745062392" duration="40000" />
+      <workItem from="1675704931315" duration="1995000" />
     </task>
     <servers />
   </component>

@@ -312,7 +312,8 @@ h4 {
   background-color: #F4F5F6; }
 
 .hot-bid {
-  height: 730px; }
+  height: 730px;
+  margin-top: 25%; }
 
 .actual-price {
   display: flex;
