@@ -32,7 +32,7 @@ h1 {
 
 h2 {
   font-size: 70px;
-  margin-block-start: 40px;
+  margin-block-start: 0px;
   margin-block-end: 0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -85,6 +85,14 @@ h4 {
 .full {
   background: $colorBlue;
   color: white;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
 }
 
 .navigator {
@@ -259,6 +267,7 @@ h4 {
 }
 
 .info-name {
+  margin-top: 10%;
   width: 400px;
 }
 
@@ -1844,4 +1853,315 @@ h4 {
   border-bottom-left-radius: 10% 20%;
   border-top-right-radius: 10% 20%;
   border-bottom-right-radius: 10% 20%;
+}
+
+.advertising {
+  display: flex;
+  border-top: 2px solid $colorLightGray;
+  border-bottom: 2px solid $colorLightGray;
+  padding-bottom: 5%;
+}
+
+.advertising-basic {
+  margin-top: 7%;
+  margin-left: 17%;
+}
+
+.advertising-img {
+  margin-top: 7%;
+}
+
+.teaser {
+  font-size: 17px;
+  margin-top: 15%;
+  font-family: "Poppins";
+  color: #777E90;
+}
+
+.idea {
+  width: 550px;
+}
+
+.comment {
+  margin-top: 5%;
+  font-size: 20px;
+  color: $colorGray;
+  font-weight: 100;
+}
+
+.advertising-basic-actions {
+  display: flex;
+  margin-top: 8%;
+}
+
+.earn-now {
+  padding-left: 4%;
+  padding-right: 4%;
+  border-top-left-radius: 20% 50%;
+  border-bottom-left-radius: 20% 50%;
+  border-top-right-radius: 20% 50%;
+  border-bottom-right-radius: 20% 50%;
+}
+
+.discover-more {
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-left: 5%;
+  border-top-left-radius: 15% 50%;
+  border-bottom-left-radius: 15% 50%;
+  border-top-right-radius: 15% 50%;
+  border-bottom-right-radius: 15% 50%;
+}
+
+.footer {
+  margin-left: 13%;
+}
+
+.footer-content {
+  display: flex;
+  margin-top: 5%;
+}
+
+.basic-slogan {
+  width: 200px;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.footer-content {
+  width: 1190px;
+}
+
+.footer-navigator__main {
+  margin-top: 2.5%;
+  width: 81px;
+  order: 999;
+  margin-left: 30%;
+}
+
+.footer-navigator__info {
+  margin-top: 2.5%;
+  width: 81px;
+  order: 999;
+  margin-left: auto;
+}
+
+.footer-navigator__joiner {
+  margin-top: 2.5%;
+  order: 999;
+  margin-left: auto;
+}
+
+.footer-navigator__joiner-text {
+  width: 350px;
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+.footer-text {
+  color: $colorGray;
+  font-size: 14px;
+  margin-top: 20%;
+}
+
+.email-conn {
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 305px;
+  order: 999;
+  border: 2px solid $colorLightGray;
+  border-top-left-radius: 8% 50%;
+  border-bottom-left-radius: 8% 50%;
+  border-top-right-radius: 8% 50%;
+  border-bottom-right-radius: 8% 50%;
+}
+
+.email-input {
+  position: relative;
+  left: 4%;
+  bottom: 2px;
+  height: 15px;
+  width: 210px;
+  font-size: 15px;
+  color: $colorGray;
+  font-family: "Poppins";
+  outline: none;
+  border-width: 0;
+}
+
+.start-connect {
+  width: 30px;
+  height: 30px;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3772FF;
+}
+
+.rights-info {
+  display: flex;
+  width: 1075px;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 2px solid $colorLightGray;
+}
+
+.rights {
+  font-weight: 100;
+  color: $colorGray;
+}
+
+.cookies-warning {
+  margin-left: auto;
+  order: 999;
+}
+
+.accept {
+  margin-left: 1.5%;
+  color: #3772FF;
+  order: 999;
+}
+
+.discover {
+  margin-left: 17%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.discover-navigator {
+  display: flex;
+  margin-top: 5%;
+  padding-bottom: 2.5%;
+  justify-content: space-between;
+  width: 1075px;
+  border-bottom: 2px solid $colorLightGray;
+}
+
+.category {
+  display: flex;
+  margin-top: 1%;
+  width: 500px;
+  justify-content: space-between;
+  color: $colorGray;
+}
+
+.list-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 200px;
+  border-top-left-radius: 8% 30%;
+  border-bottom-left-radius: 8% 30%;
+  border-top-right-radius: 8% 30%;
+  border-bottom-right-radius: 8% 30%;
+}
+
+.filter {
+  display: flex;
+  width: 55px;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-top-left-radius: 25% 50%;
+  border-bottom-left-radius: 25% 50%;
+  border-top-right-radius: 25% 50%;
+  border-bottom-right-radius: 25% 50%;
+}
+
+.load-more {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  width: 120px;
+  margin-left: 31%;
+  margin-top: 2.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-top-left-radius: 15% 50%;
+  border-bottom-left-radius: 15% 50%;
+  border-top-right-radius: 15% 50%;
+  border-bottom-right-radius: 15% 50%;
+}
+
+.discover-settings {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5%;
+  width: 950px;
+}
+
+.settings-price {
+
+}
+
+.settings-likes {
+
+}
+
+.settings-creator {
+
+}
+
+.settings-price-range {
+
+}
+
+.settings-price-active-select {
+
+}
+.settings-likes-active-select {
+
+}
+.settings-creator-active-select {
+
+}
+
+.settings-price-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 250px;
+  padding-left: 3%;
+  padding-right: 1%;
+  border-top-left-radius: 5% 30%;
+  border-bottom-left-radius: 5% 30%;
+  border-top-right-radius: 5% 30%;
+  border-bottom-right-radius: 5% 30%;
+}
+
+.settings-likes-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 250px;
+  padding-left: 3%;
+  padding-right: 1%;
+  border-top-left-radius: 5% 30%;
+  border-bottom-left-radius: 5% 30%;
+  border-top-right-radius: 5% 30%;
+  border-bottom-right-radius: 5% 30%;
+}
+
+.settings-creator-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 250px;
+  padding-left: 3%;
+  padding-right: 1%;
+  border-top-left-radius: 5% 30%;
+  border-bottom-left-radius: 5% 30%;
+  border-top-right-radius: 5% 30%;
+  border-bottom-right-radius: 5% 30%;
 }

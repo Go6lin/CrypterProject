@@ -167,3 +167,4 @@
     <div class="popular-list-next">
         <img src="images/vector%20right.png">
     </div>
+</div>

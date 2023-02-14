@@ -23,6 +23,7 @@
 <div class="popular">
     <?php require_once "View/popular.php"; ?>
 </div>
+
 <div class="hot-bid">
     <?php require_once "View/hot-bid.php"; ?>
 </div>
@@ -30,13 +31,13 @@
     <?php require_once "View/hot-collections.php"; ?>
 </div>
 <div class="discover">
-
+ <?php require_once "View/discover.php";?>
 </div>
 <div class="advertising">
-
+ <?php require_once "View/advertising.php";?>
 </div>
 <div class="footer">
-
+<?php require_once "View/footer.php";?>
 </div>
 </body>
 </html>
