@@ -77,7 +77,48 @@
             <div class="settings-price-range-active"></div>
         </div>
     </div>
-    <div class="discover-offer"></div>
+    <div class="discover-offer">
+        <div class="hot-bid-first">
+            <div class="hot-bid-first-img">
+                <img class="hot-bid-first-img" src="images/fuu-j-Lo7venJ_ywM-unsplash%201.jpg" height="290px">
+            </div>
+            <div class="hot-bid-first-main-info">
+                <div class="hot-bid-first-name-price">
+                    <div class="hot-bid-first-name">
+                        <p>Amazing digital art</p>
+                    </div>
+                    <div class="hot-bid-first-price price-tag">
+                        <p>2.45 ETH</p>
+                    </div>
+                </div>
+                <div class="hot-bid-first-follovers">
+                    <div class="hot-bid-first-follovers-photos">
+                        <img class="hot-bid-first-follovers-one circleBlock"
+                             src="images/austin-wade-X6Uj51n5CE8-unsplash%201.png" height="20">
+                        <img class="hot-bid-first-follovers-two circleBlock"
+                             src="images/austin-wade-X6Uj51n5CE8-unsplash%201.png" height="20">
+                        <img class="hot-bid-first-follovers-three circleBlock"
+                             src="images/austin-wade-X6Uj51n5CE8-unsplash%201.png" height="20">
+                    </div>
+                    <div class="hot-bid-first-follovers-amount">
+                        <p>3 in stock</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-bid-first-sub-info">
+                <div class="hot-bid-first-settings">
+                    <img src="images/settings.png" height="20">
+                </div>
+                <div class="hot-bid-first-bid">
+                    <p class="hot-bid-first-highest-bid">Highest bid</p>
+                    <p class="hot-bid-first-bid-ETH">0.001 ETH</p>
+                </div>
+                <div class="hot-bid-first-status">
+                    <p>New bid 🔥</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="discover-load-more">
     <div class="load-more clear button">

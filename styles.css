@@ -1770,7 +1770,7 @@ h4 {
   justify-content: space-around;
   height: 40px;
   width: 120px;
-  margin-left: 31%;
+  margin-left: 30.5%;
   margin-top: 2.5%;
   padding-left: 1%;
   padding-right: 1%;
@@ -1823,5 +1823,11 @@ h4 {
   border-bottom-left-radius: 5% 30%;
   border-top-right-radius: 5% 30%;
   border-bottom-right-radius: 5% 30%; }
+
+.discover-offer {
+  display: flex;
+  margin-top: 3%;
+  justify-content: space-between;
+  width: 1095px; }
 
 /*# sourceMappingURL=styles.css.map */
