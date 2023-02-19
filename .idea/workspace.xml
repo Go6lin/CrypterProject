@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstLanding/MAKET CSS.css" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -82,7 +82,8 @@
       <workItem from="1676120621788" duration="3849000" />
       <workItem from="1676388620473" duration="3404000" />
       <workItem from="1676709379579" duration="1464000" />
-      <workItem from="1676712651596" duration="1091000" />
+      <workItem from="1676712651596" duration="1802000" />
+      <workItem from="1676824679551" duration="3678000" />
     </task>
     <servers />
   </component>
